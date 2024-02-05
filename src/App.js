@@ -1,9 +1,7 @@
-import Button from './components/button/button'
+import AlertButton from './components/AlertButton/index'
 
 function App() {
-  return (
-    <Button label="Baixar CV"/>
-  );
+  return <AlertButton label="Baixar CV"/>;
 }
 
 export default App;
